@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	printf("Ingrese edad: ");
 	scanf("%d",&edad);
 	
-	printf("Hola %s, tu edad es %d.\n",nombre,edad);
+	printf("Hola %s, tu edad es %d.",nombre,edad);
 	
 	system("pause");
 	return 0;
